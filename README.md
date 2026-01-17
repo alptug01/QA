@@ -66,7 +66,7 @@ S34: Button styles fonts colors and spacing should be consistent across Dashboar
 
 # Detailed Test Cases
 
-## Test Case 1 — Saved Freelancer (Save Unsave Filter Persist)
+## Test Case 1 — Saved Freelancer  
 
 ID: SAVE-TC-01  
 Title: Verify save unsave saved filter and local persistence behavior  
@@ -98,7 +98,7 @@ Expected Results
 - After page refresh saved freelancers (A C) still appear → saved state persists  
 - After unsaving all saved freelancers list is empty and shows a clear No saved freelancers message  
 
-## Test Case 2 — Search Live Filter (Name City Case Insensitive Empty State)
+## Test Case 2 — Search Live Filter  
 
 ID: SEARCH-TC-01  
 Title: Verify live search behavior empty results and case insensitive matching  
