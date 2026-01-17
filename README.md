@@ -1,6 +1,6 @@
 # README.md
 
-# QA Test Scenarios & Test Cases
+# Test Scenarios & Test Cases
 
 This file includes all test scenarios and detailed test cases prepared for the assessment
 
