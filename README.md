@@ -79,15 +79,15 @@ Preconditions
 - No freelancer is saved at the beginning (if needed clear storage before starting)  
 
 Test Steps  
-1 Check that all freelancer cards have a Save Freelancer button  
-2 Click Save Freelancer for Freelancer A  
-3 Activate the Saved Only filter and check the list  
-4 Disable the filter and click Save Freelancer for Freelancer B and Freelancer C  
-5 Activate the Saved Only filter again and check the list  
-6 With filter active click Unsave on Freelancer B  
-7 Refresh the page (F5) with Saved Only filter still active  
-8 While filter is active unsave the remaining saved freelancers  
-9 Observe the list  
+1- Check that all freelancer cards have a Save Freelancer button  
+2- Click Save Freelancer for Freelancer A  
+3- Activate the Saved Only filter and check the list  
+4- Disable the filter and click Save Freelancer for Freelancer B and Freelancer C  
+5- Activate the Saved Only filter again and check the list  
+6- With filter active click Unsave on Freelancer B  
+7- Refresh the page (F5) with Saved Only filter still active  
+8- While filter is active unsave the remaining saved freelancers  
+9- Observe the list  
 
 Expected Results
 - After step 1 all cards show a Save Freelancer button  
@@ -108,24 +108,23 @@ Preconditions
 - Dashboard page is open  
 - Freelancer list is loaded  
 - Example data exists such as  
-  - Freelancer A Name Alptuğ Topalhan City Adana  
-  - Freelancer B Name Joe Doe City Alaska  
+  - Freelancer A Name Alptuğ Topalhan City Adana   
 - Name and City inputs are empty  
   
 Test Steps  
-1 Observe the initial list count  
-2 Type Alp in Name search input  
-3 Complete typing Alptuğ  
-4 Clear Name input and type alptuğ  
-5 Clear Name input and type ALPTUĞ  
-6 Clear Name input and type xyz123  
-7 Clear Name and City inputs  
-8 Type Adan in City search input  
-9 Complete typing Adana  
-10 Clear City input and type adana  
-11 Clear City input and type ADANA  
-12 Clear City input and type NoCity  
-13 Clear all filters again  
+1- Observe the initial list count  
+2- Type Alp in Name search input  
+3- Complete typing Alptuğ  
+4- Clear Name input and type alptuğ  
+5- Clear Name input and type ALPTUĞ  
+6- Clear Name input and type xyz123  
+7- Clear Name and City inputs  
+8- Type Adan in City search input  
+9- Complete typing Adana  
+10- Clear City input and type adana  
+11- Clear City input and type ADANA  
+12- Clear City input and type NoCity  
+13- Clear all filters again  
   
 Expected Results  
 - Initial list shows all freelancers  
