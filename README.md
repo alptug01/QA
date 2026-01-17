@@ -48,7 +48,7 @@ S25: When saved filter is active only saved freelancers should be displayed
 
 ### User Experience
 
-S26: The application should be responsive on different screen sizes (mobile tablet desktop) without layout issues  
+S26: The application should be responsive on different screen sizes without layout issues  
 S27: The application should work properly across different devices  
 S28: UI should show a clear no results message instead of a blank screen when search returns nothing  
 S29: UI elements should be clear and labeled  
@@ -76,7 +76,7 @@ Preconditions
 - Dashboard page is open  
 - Freelancer list is loaded  
 - At least 3 freelancers are available  
-- No freelancer is saved at the beginning (if needed clear storage before starting)  
+- No freelancer is saved at the beginning   
 
 Test Steps  
 1- Check that all freelancer cards have a Save Freelancer button  
@@ -91,7 +91,7 @@ Test Steps
 
 Expected Results
 - After step 1 all cards show a Save Freelancer button  
-- After saving Freelancer A button changes to saved state (icon color label)  
+- After saving Freelancer A button changes to saved state   
 - With filter active only saved freelancers are shown  
 - After saving A B C filter shows all saved freelancers (A B C)  
 - After unsaving B with filter active B disappears from the list immediately  
@@ -129,8 +129,8 @@ Test Steps
 Expected Results  
 - Initial list shows all freelancers  
 - Alp Alptuğ alptuğ ALPTUĞ → only freelancer with name Alptuğ Topalhan is shown  
-- Search is case insensitive (results do not change based on letter case)  
+- Search is case insensitive   
 - xyz123 → no results and a clear No results message is shown  
 - Adan Adana adana ADANA → only freelancers from Adana are shown  
 - NoCity → no results and a clear No results message is shown  
-- After clearing both fields → full list is shown again (reset behavior)  
+- After clearing both fields → full list is shown again  
