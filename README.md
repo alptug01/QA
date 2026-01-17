@@ -68,7 +68,6 @@ S34: Button styles fonts colors and spacing should be consistent across Dashboar
 
 ## Test Case 1 — Saved Freelancer  
 
-ID: SAVE-TC-01  
 Title: Verify save unsave saved filter and local persistence behavior  
 Priority: High  
   
@@ -100,7 +99,6 @@ Expected Results
 
 ## Test Case 2 — Search Live Filter  
 
-ID: SEARCH-TC-01  
 Title: Verify live search behavior empty results and case insensitive matching  
 Priority: High  
 
